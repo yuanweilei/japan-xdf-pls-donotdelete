@@ -22,20 +22,21 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@sitecore-cloudsdk/core": "^0.5.1",
-    "@sitecore-cloudsdk/events": "^0.5.1",
+    "@sitecore-cloudsdk/core": "^0.5.7",
+    "@sitecore-cloudsdk/events": "^0.5.7",
     "@sitecore-content-sdk/nextjs": "^1.0.0",
     "@sitecore-feaas/clientside": "^0.6.0",
     "@sitecore/components": "~2.1.0",
-    "tailwind-bootstrap-grid": "^6.0.0",
+    "@tailwindcss/postcss": "^4.1.11",
     "font-awesome": "^4.7.0",
-    "next": "^15.5.0",
+    "next": "^15.5.7",
     "next-localization": "^0.12.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "sass": "^1.87.0",
-    "sass-alias": "^1.0.5",
-    "sharp": "0.34.1"
+    "postcss": "^8.5.6",
+    "react": "^19.1.2",
+    "react-dom": "^19.1.2",
+    "sharp": "0.34.1",
+    "tailwind-bootstrap-grid": "^6.0.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@sitecore-content-sdk/cli": "^1.0.0",
@@ -51,7 +52,7 @@
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
     "npm-run-all2": "~8.0.1",
-    "prettier": "3.6.2",
+    "prettier": "^3.5.3",
     "typescript": "~5.8.3"
   },
   "scripts": {
