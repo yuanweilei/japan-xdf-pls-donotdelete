@@ -69,7 +69,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
   return {
     paths,
-    fallback: false, // Set to false for static export, true or 'blocking' for ISR (see above)
+    fallback,
   };
 };
 
