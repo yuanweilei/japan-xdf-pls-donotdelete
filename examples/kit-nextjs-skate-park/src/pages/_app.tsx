@@ -11,7 +11,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
 
   return (
     <>
-      <Bootstrap {...pageProps} />
+      <Bootstrap />
       {/*
         // Use the next-localization (w/ rosetta) library to provide our translation dictionary to the app.
         // Note Next.js does not (currently) provide anything for translation, only i18n routing.
