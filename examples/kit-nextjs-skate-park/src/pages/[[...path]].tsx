@@ -68,7 +68,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
   return {
     paths,
-    fallback,
+    fallback: false, // Set to false for static export, true or 'blocking' for ISR (see above)
   };
 };
 
@@ -105,7 +105,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     // Next.js will attempt to re-generate the page:
     // - When a request comes in
     // - At most once every 5 seconds
-    revalidate: 5, // In seconds
+    //revalidate: 5, // In seconds
     notFound: !page,
   };
 };
