@@ -4,7 +4,7 @@
 import React, { JSX } from 'react';
 import Head from 'next/head';
 import { Placeholder, Field, DesignLibrary, Page } from '@sitecore-content-sdk/nextjs';
-import Scripts from 'src/Scripts';
+// import Scripts from 'src/Scripts';
 import SitecoreStyles from 'src/components/content-sdk/SitecoreStyles';
 
 interface LayoutProps {
@@ -25,7 +25,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
 
   return (
     <>
-      <Scripts />
+      {/* <Scripts /> */}
       <SitecoreStyles layoutData={layout} />
       <Head>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>

@@ -22,7 +22,8 @@ const CdpPageView = (): JSX.Element => {
    * By default it is disabled in development mode
    */
   const disabled = () => {
-    return process.env.NODE_ENV === 'development';
+    // return process.env.NODE_ENV === 'development';
+    return true; // Disable events by default, implement your logic here based on your cookie consent management solution;
   };
 
   useEffect(() => {
