@@ -64,6 +64,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
     }
 
     fallback = process.env.EXPORT_MODE ? false : fallback;
+    console.log(fallback);
   }
 
   return {
